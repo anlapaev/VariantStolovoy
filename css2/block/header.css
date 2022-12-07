@@ -1,0 +1,54 @@
+.header{
+    height: 72px;
+    box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
+    padding: 0 15px;
+    margin-bottom: 72px;
+}
+
+.header__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header__user{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    column-gap: 15px;
+}
+
+.button{
+    border: 1px solid #E0E0E0;
+    padding: 14px 20px;
+    color: black;
+    border-radius: 2px;   
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 24px;
+    font-family: 'Roboto';
+}
+
+.header__container p{
+    font-size: 22px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
+
+.header__container span{
+    font-size: 22px;
+    color: rgb(255, 238, 0);
+}
+
+.footer__logo span{
+    font-size: 22px;
+    color: rgb(255, 238, 0);
+}
+
+.footer__logo p{
+    font-size: 22px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}

@@ -1,0 +1,432 @@
+@media (max-width: 1199px) {
+    .header_block{
+        width: 900px;
+    }
+
+    .content{
+        width: 900px;
+    }
+
+    .photo_Univ{
+        height: 500px;
+    }
+}
+
+
+@media (max-width: 991px) {
+    .menu_search{
+        display: none;
+    }
+
+    .burger_menu{
+        display: block;
+    }
+    .header{
+        height: 150px;
+    }
+
+    .header-navigation{
+        display: block;
+        position: fixed;
+        background: rgb(211, 210, 210);
+        width: 100%;
+        height: 100%;
+        z-index: 4;
+        left: -100%;
+        color: aliceblue;
+        transition: left 500ms cubic-bezier(0.68, 0.55, 0.27, 1.55);    
+    }
+
+    .header-navigation ul{
+        padding-left: 10px;
+    }
+    .header-navigation li{
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px;
+    }
+
+    .menu_animate{
+        left: 0;
+    }
+    
+
+    .header_block{
+        width: 750px;
+        height: 100%;
+  
+    }
+
+    .block_logo{
+        justify-content: center;
+        height: 70px;
+    }
+
+    .logo_name{
+        padding: 0;
+    }
+
+    .header_authorization{
+        margin: 0;
+        position: absolute;
+        right: 30px;
+        height: 70px;
+    }
+    .block{
+        display: block;
+    }
+
+    .content{
+        width: 750px;
+        margin-top: 30px;
+    }
+
+    .block_post{
+        width: 350px;
+        height: 400px;
+    }
+
+    .icon__post_size{
+        padding-top: 40px;
+        width: 260px;
+        height: 260px;
+    }
+
+    .photo_Univ{
+        height: 400px;
+    }
+
+}
+  
+@media (max-width: 767px) {
+    .header_block{
+        width: 550px;
+    }
+
+    .content{
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .container{
+        width: 100%;
+    }
+    .block_post{
+        padding-top: 10px;
+        width: 200px;
+        height: 230px;
+    }
+    
+    .dish{
+        align-content: space-between;
+    }
+    .icon__post_size{
+        padding-top: 0;
+        width: 160px;
+        height: 160px;
+    }
+
+    .name_dish{
+        font-size: 18px;
+    }
+
+    .price_dish{
+        font-size: 18px;
+    }
+
+    .footer_info{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+}
+
+@media (max-width:661px) {
+    .content{
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .container{
+        width: 100%;
+    }
+    .block_post{
+        padding-top: 10px;
+        width: 190px;
+        height: 220px;
+    }
+    
+    .dish{
+        align-content: space-between;
+    }
+    .icon__post_size{
+        padding-top: 0;
+        width: 140px;
+        height: 140px;
+    }
+
+    .name_dish{
+        font-size: 16px;
+    }
+
+    .price_dish{
+        font-size: 18px;
+    }
+
+    .footer_logo img{
+        padding-top: 20px;
+        width: 70px;
+        height: 70px;
+    }
+
+    .time_work{
+        margin-top: 20px;
+        font-size: 18px;
+    }
+}
+
+@media (max-width:624px) {
+    .content{
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .container{
+        width: 100%;
+    }
+    .block_post{
+        padding-top: 10px;
+        width: 150px;
+        height: 190px;
+    }
+    
+    .dish{
+        align-content: space-between;
+    }
+    .icon__post_size{
+        padding-top: 0;
+        width: 120px;
+        height: 110px;
+    }
+
+    .name_dish{
+        font-size: 16px;
+    }
+
+    .price_dish{
+        font-size: 18px;
+    }
+}
+  
+
+@media (max-width: 575px) {
+    .header_block{
+        width: 300px;
+    }
+
+    .dish{
+        justify-content: space-around;
+    }
+
+    .header{
+        height: 120px;
+    }
+
+    .block_logo{
+        height: 65px;
+    }
+    .block_logo img{
+        height: 60px;
+        width: 60px;
+    }
+
+    .logo_name{
+        font-size: 20px;
+        padding-top: 7px;
+    }
+
+    .burger_menu{
+        width: 30px;
+        height: 30px;
+    }
+
+    .burger_menu span,
+    .burger_menu span::after,
+    .burger_menu span::before{
+    width: 30px;
+    height: 5px;
+    } 
+    
+    .burger_menu span::before{
+        top: -10px;
+    }
+
+    .burger_menu span{
+        top: 10px;
+    }
+
+    .burger_menu span::after{
+        bottom: -10px;
+    }
+
+    .header_authorization{
+        width: 50px;
+        height: 50px;
+    }
+
+    .header_authorization img{
+        width: 50px;
+        height: 50px;
+    }
+
+    .slider{
+        height: 300px;
+    }
+
+    .content{
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .container{
+        width: 100%;
+    }
+    .block_post{
+        padding-top: 10px;
+        width: 150px;
+        height: 190px;
+    }
+    
+    .dish{
+        align-content: space-between;
+    }
+    .icon__post_size{
+        padding-top: 0;
+        width: 120px;
+        height: 120px;
+    }
+
+    .name_dish{
+        font-size: 16px;
+    }
+
+    .price_dish{
+        font-size: 18px;
+    }
+
+    .footer_logo img{
+        padding-top: 0;
+        padding-top: -20px;
+    }
+
+    .footer_logo{
+        padding-top: -10px;
+    }
+
+    .time_work{
+        margin-top: 20px;
+        padding-top: 0;
+    }
+
+    .footer_info-contacts{
+        width: 100%;
+        padding-left: 10px;
+    }
+
+    .photo_Univ{
+        height: 300px;
+    }
+}
+
+@media (max-width: 375px) {
+
+    .photo_Univ{
+        width: auto;
+        height: 200px;
+    }
+
+
+    .slider{
+        height: 250px;
+    }
+
+    .dish{
+        align-content: space-between;
+    }
+
+    .content{
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .container{
+        width: 100%;
+    }
+    .block_post{
+        padding-top: 10px;
+        width: 150px;
+        height: 190px;
+    }
+    
+
+    .icon__post_size{
+        padding-top: 0;
+        width: 120px;
+        height: 110px;
+    }
+
+    .name_dish{
+        font-size: 16px;
+    }
+
+    .price_dish{
+        font-size: 18px;
+    }
+
+    .menu_search input{
+        width: 150px;
+        height: 25px;
+        font-size: 16px;
+    }
+
+    .menu_search button{
+        width: 25px;
+        height: 25px;
+    }
+}
+
+@media (max-width:346px) {
+    .dish{
+        justify-content: space-around;
+    }
+
+    .block_post{
+        padding-top: 10px;
+        width: 120px;
+        height: 170px;
+    }
+    
+
+    .icon__post_size{
+        padding-top: 0;
+        width: 100px;
+        height: 100px;
+    }
+
+    .name_dish{
+        font-size: 16px;
+    }
+
+    .price_dish{
+        font-size: 18px;
+    }
+    .photo_Univ{
+        height: 150px;
+    }
+}
+
+@media (max-width: 320px) {
+    .time_work{
+        padding-bottom: 15px;
+    }
+}

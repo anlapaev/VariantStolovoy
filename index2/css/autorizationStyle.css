@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+}
+
+h1{
+    margin: 0;
+}
+
+p{
+    margin: 0;
+}
+
+input{
+    padding: 0;
+    margin: 0;
+}
+.block_autorization{
+    max-width: 500px;
+    height: 500px;
+    background: linear-gradient(180deg, rgba(255, 163, 163, 0.2) 0%, rgba(255, 163, 163, 0) 100%);
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.block_autorization h1{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.autorization_window{
+    margin: 0 auto;
+    max-width: 300px;
+    margin-top: 60px;
+}
+
+.text_autorization{
+    margin-left: 10px;
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.autorization_lg{
+    min-width: 100%;
+    height: 35px;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+.autorization_lg::placeholder{
+    font-style: italic;
+}
+
+.size_lg{
+    margin-bottom: 20px;
+}
+
+.learn_password{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.btn_block{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.custom_btn{
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+}
+
+.btn_enter{
+    background: rgb(6,14,131);
+    background: linear-gradient(0deg, rgba(6,14,131,1) 0%, rgba(12,25,180,1) 100%);
+    border: none;
+}
+
+.btn_enter:hover{
+    background: rgb(0,3,255);
+    background: linear-gradient(0deg, rgba(0,3,255,1) 0%, rgba(2,126,251,1) 100%);
+}
+
+.btn_regist{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn_regist a span{
+    color: black;
+    font-size: 20px;
+}
+
+.btn_regist a{
+    text-decoration: none;
+}
+
+.btn_regist a span:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+.btn_regist a span::before{
+    color: blue;
+    text-decoration: underline;
+}
+.password_checkbox{
+    margin-right: 5px;
+    width: 15px;
+    height: 15px;
+}
+
+.back{
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 5px;
+}

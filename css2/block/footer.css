@@ -1,0 +1,170 @@
+
+.footer{
+    background: #262626;
+    min-height: 552px;
+    padding: 0 8px;
+}
+
+.footer__container{
+    
+}
+
+
+.footer__logo{
+    width: 200px;
+    margin-bottom: 40px;
+    padding-top: 56px;
+}
+
+.footer__logo-pic{
+    
+}
+.line{
+    border-top: 1px solid #FFFFFF;
+    opacity: 0.4;
+    margin-bottom: 32px;
+}
+
+a {
+    display: block;
+    
+}
+
+.footer__sec2{
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    flex-wrap: wrap;
+    
+}
+
+
+
+
+.ruen__button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #3B3B3B;
+    border-radius: 2px;
+    width: 227px;
+    height: 40px;
+    color: #FFFFFF;
+    padding: 16px 8px;
+
+}
+
+
+
+.world-pic{
+    margin-left: 16px;
+}
+
+.ruen{
+    display: block;
+    background: #3B3B3B;
+    border-radius: 2px;
+    width: 227px;
+    height: 40px;
+    color: #FFFFFF;
+    align-items: center;
+}
+
+.uber__eats{
+    padding-top: 33px;
+}
+
+.uber__eats span{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.color-green{
+    color: green;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.uber__social{
+    display: flex;
+    gap: 20px;
+}
+/*кнопка смены языка */
+.hide {
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+/*кнопка смены языка */
+
+
+
+.nav__footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    line-height: 33px;
+}
+
+.footer__menu-item{
+    padding: 0 100px 0 0;
+}
+.footer__menu-link{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 13px;
+    
+}
+
+
+.line2{
+    margin-top: 32px;
+    border-top: 1px solid #FFFFFF;
+    opacity: 0.4;
+    margin: 32px 0 32px 0;
+}
+
+/* app*/
+
+.app{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    
+}
+.app-block{
+    border: 1px solid #fff;
+    border-radius: 2px;
+}
+/* app*/
+
+/* last footer start*/
+.footer__sec4{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    grid-gap: 24px;
+}
+.footer__span{ 
+    color: #fff;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+}
+
+.button__start{
+    width: 70px;
+    height: 70px;
+    background-color: rgb(255, 255, 17);
+    border-radius: 2px;
+
+}
+
+
+
+/* last footer end*/

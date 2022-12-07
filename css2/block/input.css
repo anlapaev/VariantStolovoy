@@ -1,0 +1,27 @@
+
+.main{
+    padding: 0 15px;
+    margin-bottom: 56px;
+}
+.form{
+
+}
+.input{
+    
+}
+.main__input{
+    border-bottom: 1px solid #E0E0E0;
+    display: flex;
+    height: 30px;
+    
+    
+}
+
+.style-text{
+    width: 300px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 0.5;
+    
+}

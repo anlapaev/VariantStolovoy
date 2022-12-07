@@ -38,8 +38,71 @@ p{
 .header_block{
     width: 1200px;
     height: 100px;
+}
 
+.burger_menu{
+    display: none;
+}
 
+.burger_menu{
+    position: fixed;
+    left: 0;
+    top: 80px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    z-index: 5;
+    left: 10px;
+}
+
+.burger_menu span,
+.burger_menu span::after,
+.burger_menu span::before{
+    width: 50px;
+    height: 7px;
+    position: absolute;
+    background: #333;
+    display: block;
+    transition: .3s;
+    border-radius: 5px;
+}
+
+.burger_menu span::before{
+    content: '';
+    top: -20px;
+    transition: top 300ms 300ms, transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.burger_menu span{
+    top: 20px;
+}
+
+.burger_menu span::after{
+    content: '';
+    bottom: -20px;
+    transition: bottom 300ms 300ms, transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.burger_menu span.active::before{
+    content: '';
+    top: 0;
+    transform: rotate(45deg);
+    transition: top 300ms, transform 300ms 300ms cubic-bezier(068, -0.55, 0, 1.55);
+}
+
+.burger_menu span.active::after{
+    content: '';
+    bottom: 0;
+    transform: rotate(-45deg);
+    transition: top 300ms, transform 300ms 300ms cubic-bezier(068, -0.55, 0, 1.55);
+}
+
+.burger_menu span.active{
+    background: rgba(255, 255, 255, 0);
+}
+
+.main{
+    margin-bottom: 20px;
 }
 
 .block{
@@ -70,7 +133,7 @@ p{
 }
 
 .header-navigation li:not(:last-child){
-padding-right: 30px;
+    padding-right: 30px;
 }
 
 .header-navigation a:hover{
@@ -88,18 +151,22 @@ padding-right: 30px;
     width: 1200px;
 }
 
+
+
 .slider{
-    background-image: url("/img/banner.jpg");
+    background-image: url("/index2/img/banner.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
     background-color: rgb(255, 255, 255);
     height: 400px;
+    width: 100%;
     border-radius: 10px;
     box-shadow:  0px 5px 10px 0px rgba(0, 0, 0, 0.1);
 }
 
 .menu_navigation{
     margin-top: 20px;
-    height: 50px;
+    height: 100%;
     display: flex;
     justify-content: space-around;
 }
@@ -148,11 +215,10 @@ padding-right: 30px;
 
 .menu_search form{
     position: relative;
-
 }
 
 .menu_search button {
-    background-image: url("/img/icon_search.svg");
+    background-image: url("/index2/img/icon_search.svg");
     width: 30px;
     height: 30px;
     background-repeat: no-repeat;
@@ -175,6 +241,7 @@ padding-right: 30px;
     box-shadow:  0px 5px 10px 0px rgba(0, 0, 0, 0.1);
     height: auto;
     margin-top: 20px;
+    padding-bottom: 20px;
 }
 
 .menu_logo{
@@ -257,3 +324,65 @@ padding-right: 30px;
 .salad{
     margin-top: 20px;
 }
+
+.footer .content{
+    margin-top: 0;
+    background-color: rgb(37, 37, 37);
+    padding-top: 20px;
+    color: aliceblue;
+}
+.footer a{
+    color: aliceblue;
+}
+
+.footer_info{
+    display: flex;
+    width: 700px;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.photo_Univ{
+    background-image: url("/index2/img/uNIVER.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+
+.footer_info-contacts{
+    flex-wrap: wrap;
+    width: 250px;
+}
+
+.address{
+    display: flex;
+    
+}
+
+.phone_number{
+    margin-bottom: 10px;
+}
+
+.e_mail{
+    margin-bottom: 10px;
+}
+
+.address{
+    margin-bottom: 10px;
+}
+
+.time_work{
+    font-size: 22px;
+    font-weight: 600;
+    padding-top: 30px;
+}
+.footer_logo{
+    padding-top: 10px;
+}
+
+.back{
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
